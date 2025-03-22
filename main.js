@@ -476,9 +476,12 @@ $(function() {
   fetch('profiles.json')
   .then(response => response.json())
   .then(data => {
-    adjust_to_condition(data);
+    window.others = data;           // <- Make sure this line exists
+    adjust_to_condition();          // <- Now safe to call
   })
-  .catch(error => console.error("Error loading JSON:", error));
+  .catch(error => {
+    console.error("Error loading profiles.json:", error);
+  });
 
   // Start with the intro slide
   init_intro();
