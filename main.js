@@ -473,7 +473,12 @@ $(function() {
   // Set Settings, get Participant No. and Condition No.
   set_settings();
   get_params();
-  adjust_to_condition();
+  fetch('profiles.json')
+  .then(response => response.json())
+  .then(data => {
+    adjust_to_condition(data);
+  })
+  .catch(error => console.error("Error loading JSON:", error));
 
   // Start with the intro slide
   init_intro();
