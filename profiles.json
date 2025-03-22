@@ -1,0 +1,74 @@
+// **Group members profiles**   
+// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
+	
+window.others = {
+  "posts" : [
+      {
+        "avatar": "avatars/others/george.png",
+        "username": "Georgeee",
+        "text": "Ich bin ein 19-jähriger Typ aus Sachsen. Meine Freunde machen sich deswegen oft über meinen Akzent lustig :-D. Ich liebe Musik. In letzter Zeit höre ich hauptsächlich Joy Division, Metallica und immer mal wieder Simon and Garfunkel. Neben der Musik interessiere ich mich noch für Sprachen, Psychologie, Zeichnen und Schreiben.",
+        "likes": [45000, 50000, 110000, 150000] //4
+      },
+      {
+        "avatar": "avatars/others/sarah.png",
+        "username": "Sarah",
+        "text": "Also, dann stelle ich mich mal vor: Ich bin Sarah, bin verheiratet und Mutter von zwei wundervollen (erwachsenen) Kindern. Meine berufliche Entwicklung ist ein wenig seltsam verlaufen. Angefangen habe ich als Historikerin, bevor ich in einen vollkommen anderen Bereich gewechselt bin. Als Gutachterin für berufliche Reha habe ich jungen Menschen mit Behinderung dabei geholfen, einen Arbeitsplatz zu finden. Ich bin gerade in Rente gegangen und verbringe jetzt mehr Zeit mit meinen Hobbies Singen, Lesen und Volleyball spielen.",
+        "likes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000] //9
+      },
+      {
+        "avatar": "avatars/others/john.png",
+        "username": "John",
+        "text": "Hallo! Ich bin 57 Jahre alt, verheiratet und habe zwei Kinder. Seit über 30 Jahren arbeite ich als Programmierer, aber keine Sorge: ich trage nicht den typischen altmodischen Haarschnitt, Schlabberhemden oder eine NerdBrille. Ich freue mich darauf, mit euch allen zusammen zu arbeiten. Macht’s gut, euer John",
+		"likes": [20000, 21000] //2
+      },
+      {
+        "avatar": "avatars/others/anca.png",
+        "username": "AncaD",
+        "text": "Ich bin Informatikstudent und interessiere mich für die Verarbeitung natürlicher Sprache. Außerdem probiere ich gern die unterschiedlichsten Tee-Sorten und bin ein begeisterter Verehrer des Semantic Web. Ich bin neugierig, worum es bei dieser Aufgabe hier gehen wird.",
+        "likes": [10000, 12000, 40000, 80000, 120000] //5
+      },
+      {
+        "avatar": "avatars/others/niki.png",
+        "username": "Nick",
+        "text": "In meinem leben dreht sich alles ums bergsteigen. Mit 12 habe ich mit klettern angefangen (bald werde ich 18) und normalerweise klettere ich jeden tag so 2-3 stunden. ich langweile mich nie beim klettern, weil es jedes mal anders ist...der weg, das wetter oder meine kraft und mein durchhaltevermögen...es ist einfach geil!",
+        "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
+      },
+    {
+        "avatar": "avatars/others/mary.png",
+        "username": "Marie",
+        "text": "Mein Name ist Marie und ich bin 49 Jahre alt. Ich habe einen Mann und 2 erwachsene Söhne. Meine Familie und ich haben in verschiedenen Ländern gelebt. Unsere Söhne haben dort immer internationale Schulen besucht und seit wir nach China gezogen sind, habe ich ebenfalls Arbeit an solchen Schulen gefunden. Gerade leben wir aber wieder in Deutschland. Wenn ich nicht gerade in der Welt herumwandere spiele ich auch gerne Spiele. Brettspiele, Karten, Black Jack oder Poker, Mah Jong oder dämliche Spiele auf Facebook, Jigsaws und sowas. Einfach alles!",
+        "likes": [20000, 25000, 95000] //3
+      },
+      {
+        "avatar": "avatars/others/lauren.png",
+        "username": "Laura",
+        "text": "Ich bin Laura. Ich liebe es mit Freunden abzuhängen und shoppen zu gehen. Hier mache ich nur ein paar Online-Studien. Mal schauen, was kommt...",
+        "likes": [12000, 38000] //1
+      },
+          {
+        "avatar": "avatars/others/kim.png",
+        "username": "Ky",
+        "text": "Hey, Leute. Ich bin 19 und gebürtige Koreanerin. Ich bin nun seit vier Jahren in Deutschland. Ich halte mich selbst für ziemlich nett, aber ein Engel bin ich trotzdem nicht. Ich mag es einfach, mich um Leute zu kümmern. In meiner Freizeit knüpfe ich gerne neue Freundschaften, quatsche über alles Mögliche, schaue mir Kunstaustellungen an, experimentiere mit meinem Makeup, lese, singe (zum Glück nicht mehr im Rentnerchor), bastle Schmuck und koche leckeres Essen. Habt einen schönen Tag und lasst euch nicht stressen! <3",
+        "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000] //7
+      },
+      {
+        "avatar": "avatars/others/arjen.png",
+        "username": "Arjen",
+        "text": "Mein Name ist Arjen und ich studiere künstliche Intelligenz (bzw. Informatik) in Karlsruhe. Außerdem nutze ich gerne meine Freizeit um alles mögliche zu machen....ich bin auch ein kleiner „Nerd“, schätze ich.",
+        "likes": [12000, 40000, 120000] //3
+      },
+      {
+        "avatar": "avatars/others/heather.png",
+        "username": "Hannah",
+        "text": "Ich starte gerade mein zweites Semester in einem naturwissenschaftlichen Studiengang an der Uni (was ganz schön anstrengend ist). Außerdem arbeite ich als Aushilfe in einer Bäckerei und verdiene auch ein bisschen Geld online. Ich habe meine Zukunft schon durchgeplant und ich denke sie wird spannend. Ich will zu Medizin wechseln und Ärztin werden, eine Familie gründen und viele Hunde haben. Das wird genial.",
+        "likes": [13000, 50000, 80000, 88000, 120000] //5
+      },
+      {
+        "avatar": "avatars/others/jane.png",
+        "username": "Jenny",
+        "text": "Liebe alle, mein Name ist Jenny und ich werde morgen ein wichtiges Vorstellungsgespräch in einer bekannten Firma haben. Das ist alles, woran ich zurzeit denken kann. Ich hoffe euch geht’s gut!",
+        "likes": [10000, 50000] //6
+      },
+
+    ]
+  };
