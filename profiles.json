@@ -1,7 +1,7 @@
 // **Group members profiles**   
 // Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
 	
-window.others = {
+ {
   "posts" : [
       {
         "avatar": "avatars/others/george.png",
